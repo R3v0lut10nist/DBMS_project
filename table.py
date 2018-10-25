@@ -2,7 +2,6 @@ from MySQLdb import connect
 
 def maketables():
     try:
-        print("ererere")
         c=connect("127.0.0.1","root","asd","project")
         print("ddddddd")
         d=c.cursor()
